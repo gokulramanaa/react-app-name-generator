@@ -17,7 +17,7 @@ const ResultsPage = (props: propTypes): React.FunctionComponentElement<propTypes
                 key={value}
                 dense
                 secondaryAction={
-                    <IconButton edge="end" aria-label="delete">
+                    <IconButton edge="end" aria-label="delete" href={`https://www.names.org/n/${value}/about`} target="_blank">
                         <InfoIcon />
                     </IconButton>
                 }

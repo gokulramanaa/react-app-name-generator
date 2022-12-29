@@ -22,7 +22,7 @@ const ReviewFlow = (props: propTypes): React.FunctionComponentElement<propTypes>
   return (
     <React.Fragment>
       <Typography variant="h6" gutterBottom>
-        Baby Info
+        Find unique name for your soul
       </Typography>
       <Grid container spacing={3}>
         <Grid item xs={12}>
